@@ -1,2 +1,2 @@
-export const DEEPGRAM_API_KEY = "Your_API_Key";
-export const GROQ_API_KEY = "Your_API_Key";
+export const DEEPGRAM_API_KEY = process.env.REACT_APP_DEEPGRAM_API_KEY;
+export const GROQ_API_KEY = process.env.REACT_APP_GROQ_API_KEY;
